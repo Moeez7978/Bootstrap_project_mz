@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+background-size: cover;
+    font-family: "Urbanist",sans-serif ;
+}
+:root{
+    --bs-dark-color:#1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#ffff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color:#29a9fd;
+    --bs-supporting-color:#c850c0;
+
+
+}
+/* h1,h2,h3,h4,h5,h6{
+    color:var(--bs-dark-color);
+} */
+h1{
+    font-weight: 3.8rem;
+    color: var(--bs-main-color);
+}
+h2{
+    color: var(--bs-dark-color);
+    font-weight: 3rem;
+    line-height: 1.5rem;
+}
+p{
+color: var(--bs-dark-color);
+letter-spacing: 0.05rem;
+line-height: 1.5rem;
+}
+a{
+    text-decoration: none;
+
+}
+li{
+    list-style: none;
+}
+/* MAIN START */
+.bg-main{
+    
+    height: auto;
+    width: auto;
+    position: relative;
+    border: none;
+    border-color: transparent;
+    background-color: var(--bs-supporting-color);
+}
+.bg-color{
+   background-color: var(--bs-dark-primary);
+}
+.main{
+    
+    /* justify-content: center;
+    align-items: center; */
+   display: grid;
+   place-items: center;
+   height: inherit;
+   padding: 5rem 0;
+
+
+}
+.text-center video{
+    margin-top: 50px;
+    width: 90%;
+    height: 80%;
+    border-radius: 1.5rem;
+}
+.custom-shape-divider-bottom-1716449185 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1716449185 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1716449185 .shape-fill {
+    fill: #FFFFFF;
+}
+/* Services section */
+.contact-main{background-color: var(--bs-dark-color);
+    height: 116vh;
+    position: relative;
+
+}
+.icon-arrow{
+    margin: 0 5rem;
+    height: 5rem;
+    width: 5rem;
+    background-color: var(--secondary-color);
+    color: var(--bs-main-color);
+    border-radius: 50%;
+}
+.form-input{
+    border-radius: 1rem;
+    border: 2px solid var(--bs-dark-color);
+    text-align: center;
+    background-color: var(--bs-primary-color);
+}
+.form-input::placeholder{
+    color: var(--bs-dark-primary);
+    font-size: larger;
+    font-weight: bolder;
+}
+#textarea{
+    width: 60%;
+    height: 80%;
+}
+label{
+    color: var(--bs-main-color);
+}
+.row{
+    --bs-gutter-x:0;
+}
+.contact-input{
+    align-self: center;
+    justify-content: center;
+
+}
